@@ -1,0 +1,41 @@
+main {
+  width:800px;
+  margin: 0 auto;
+}
+
+.container {
+
+}
+
+.pic {
+
+}
+
+.explanation {
+
+}
+
+.ip {
+  position: absolute;
+  top: 82%;
+}
+
+.php {
+  position: absolute;
+  top: 70%;
+}
+
+.iop {
+  position: absolute;
+  top: 62%;
+}
+
+.it {
+  position: absolute;
+  top: 49%;
+  right: 58%;
+}
+
+.text {
+
+}
