@@ -5,9 +5,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.defaults({
   // Defaults are used by all ScrollTriggers
-  events: "onEnter",//onLeave onEnterBack onLeaveBack",
+  //events: "onEnter",//onLeave onEnterBack onLeaveBack",
   toggleActions: "restart pause resume pause",
-  options: "play, pause, resume, reset, restart, complete, reverse, none",
+  //options: "play, pause, resume, reset, restart, complete, reverse, none",
  markers: true, // Easily remove markers for production
 });
 // END Setup ScrollTrigger -------------------------------------//
@@ -24,7 +24,7 @@ const timeline = gsap.timeline({
   }
 });
 
-let stagger = 0.8
+let stagger = 0.9
 
 timeline
 .from(sections, {opacity: 0, stagger:stagger })

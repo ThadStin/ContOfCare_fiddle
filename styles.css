@@ -1,10 +1,19 @@
+body {
+  background-color: lightgray;
+}
+
 main {
   width:800px;
   margin: 0 auto;
 }
 
-.container {
+section {
+  height: 100vh;
+  background-color: orange;
+}
 
+.container {
+  background-color: white;
 }
 
 .pic {
@@ -12,7 +21,7 @@ main {
 }
 
 .explanation {
-
+ background-color: lightblue;
 }
 
 .ip {
